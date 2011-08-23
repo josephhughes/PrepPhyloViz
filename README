@@ -1,0 +1,9 @@
+SNPfilePrep.pl by Joseph Hughes, University of Glasgow
+
+This is a perl script for preparing the input files for Phyloviz. It 
+creates the isolate data file and the SNP dataset from an alignement 
+in fasta format. It expects the fasta file ids to be in the form of 
+a number or word followed by D by a number by S by a number (pig123D4S1, 
+i.e. the host, the day of the sampling and the sequence number)
+
+This script uses Bioperl modules.
